@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haris Aslam — Horizon | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── Ambient Background Blobs ─── -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+
+  <!-- ─── Navigation ─── -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-text">Horizon</span>
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ─── Hero Section ─── -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for Work
+          </div>
+          <h1 class="hero-name">
+            Haris <span class="accent-gradient">Aslam</span>
+          </h1>
+          <p class="hero-alias">aka <span class="alias-text">Horizon</span></p>
+          <div class="hero-tagline">
+            <span class="static-prefix">I am a </span>
+            <span class="typed-text" id="typed-text"></span>
+            <span class="cursor-blink">|</span>
+          </div>
+          <p class="hero-description">
+            Combining healthcare knowledge with technology and design to build impactful digital experiences. Pharm-D student by day, creative technologist by passion.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-rocket"></i>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-paper-plane"></i>
+              Get In Touch
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="16">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Clients</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Countries</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-orbit">
+            <div class="orbit-ring orbit-ring-1"></div>
+            <div class="orbit-ring orbit-ring-2"></div>
+            <div class="orbit-node node-1">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="orbit-node node-2">
+              <i class="fas fa-capsules"></i>
+            </div>
+            <div class="orbit-node node-3">
+              <i class="fas fa-palette"></i>
+            </div>
+            <div class="orbit-node node-4">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="photo-frame">
+              <div class="photo-glow"></div>
+              <img
+                src="https://cdn.imgchest.com/files/8e7becd470dc.jpeg"
+                alt="Haris Aslam — Horizon"
+                class="hero-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-line">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── About Section ─── -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About <span class="accent-gradient">Me</span></h2>
+          <p class="section-subtitle">A blend of science, creativity, and technology</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-card reveal">
+            <div class="about-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>The Student</h3>
+            <p>Currently pursuing Pharm-D (Doctor of Pharmacy) at Quaid e Azam College of Pharmacy, Pattoki — combining medical sciences with a passion for innovation.</p>
+          </div>
+          <div class="about-card glass-card reveal" style="--delay: 0.1s">
+            <div class="about-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>The Tech Enthusiast</h3>
+            <p>A passionate vibe coder who builds web experiences, experiments with Generative AI, and creates digital solutions for real-world problems in healthcare and beyond.</p>
+          </div>
+          <div class="about-card glass-card reveal" style="--delay: 0.2s">
+            <div class="about-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3>The Creative</h3>
+            <p>Serving as Media Cell Head at QCP, designing visuals, managing social media, and crafting brand identities — with clients spanning Pakistan, Saudi Arabia, and the USA.</p>
+          </div>
+        </div>
+
+        <div class="education-timeline reveal">
+          <h3 class="timeline-heading">Education Journey</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-year">2022</span>
+                <h4>Matriculation</h4>
+                <p>The Educators Al Rehman Campus</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-year">2024</span>
+                <h4>FSC Pre-Medical</h4>
+                <p>Punjab Group of Colleges, Okara</p>
+              </div>
+            </div>
+            <div class="timeline-item active">
+              <div class="timeline-marker">
+                <div class="marker-dot pulse"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-year">Present</span>
+                <h4>Pharm-D</h4>
+                <p>Quaid e Azam College of Pharmacy, Pattoki</p>
+                <span class="active-badge">Currently Enrolled</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Skills Section ─── -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I Do</span>
+          <h2 class="section-title">My <span class="accent-gradient">Skills</span></h2>
+          <p class="section-subtitle">A versatile toolkit spanning design, development, and AI</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card glass-card reveal">
+            <div class="skill-icon-wrap">
+              <div class="skill-icon skill-icon--design">
+                <i class="fas fa-pen-nib"></i>
+              </div>
+            </div>
+            <h3>Graphic Designing</h3>
+            <p>Crafting visual identities, posters, social media content, and brand assets that communicate powerfully.</p>
+            <div class="skill-tags">
+              <span class="tag">Branding</span>
+              <span class="tag">Poster Design</span>
+              <span class="tag">Social Media</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card reveal" style="--delay: 0.1s">
+            <div class="skill-icon-wrap">
+              <div class="skill-icon skill-icon--web">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <h3>Web Development</h3>
+            <p>Building modern, responsive websites and web apps with a creative vibe coding approach and clean aesthetics.</p>
+            <div class="skill-tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Vibe Coding</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card reveal" style="--delay: 0.2s">
+            <div class="skill-icon-wrap">
+              <div class="skill-icon skill-icon--social">
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+            <h3>Social Media Management</h3>
+            <p>Growing audiences, creating engaging content strategies, and managing digital presence for organizations.</p>
+            <div class="skill-tags">
+              <span class="tag">Content Strategy</span>
+              <span class="tag">Analytics</span>
+              <span class="tag">Engagement</span>
+            </div>
+          </div>
+
+          <div class="skill-card glass-card reveal" style="--delay: 0.3s">
+            <div class="skill-icon-wrap">
+              <div class="skill-icon skill-icon--ai">
+                <i class="fas fa-brain"></i>
+              </div>
+            </div>
+            <h3>Generative AI</h3>
+            <p>Leveraging cutting-edge AI tools to supercharge workflows, generate creative assets, and build smart solutions.</p>
+            <div class="skill-tags">
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">AI Tools</span>
+              <span class="tag">Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Projects Section ─── -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What I've Built</span>
+          <h2 class="section-title">Featured <span class="accent-gradient">Projects</span></h2>
+          <p class="section-subtitle">Real-world solutions built with passion and precision</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-preview">
+              <iframe
+                src="https://pptesting.netlify.app"
+                title="Blood Donation App Preview"
+                loading="lazy"
+                scrolling="no"
+              ></iframe>
+              <div class="project-preview-overlay">
+                <a href="https://pptesting.netlify.app" target="_blank" rel="noopener" class="preview-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                  Open Live Preview
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Web App</span>
+                <span class="project-status status-live">Live</span>
+              </div>
+              <h3>Blood Donation App</h3>
+              <p>A web-based blood donation platform connecting donors with those in need — combining healthcare awareness with modern web technology.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <a href="https://pptesting.netlify.app" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass-card reveal" style="--delay: 0.1s">
+            <div class="project-preview">
+              <iframe
+                src="https://eidmubarakbyqcp.netlify.app"
+                title="Eid Mubarak Web Project Preview"
+                loading="lazy"
+                scrolling="no"
+              ></iframe>
+              <div class="project-preview-overlay">
+                <a href="https://eidmubarakbyqcp.netlify.app" target="_blank" rel="noopener" class="preview-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                  Open Live Preview
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Creative Web</span>
+                <span class="project-status status-live">Live</span>
+              </div>
+              <h3>Eid Mubarak Web Project</h3>
+              <p>A beautifully crafted festive web experience for Quaid e Azam College of Pharmacy, celebrating Eid with interactive animations and digital greetings.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS Animations</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <a href="https://eidmubarakbyqcp.netlify.app" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card glass-card reveal" style="--delay: 0.2s">
+            <div class="project-preview">
+              <iframe
+                src="https://fiuvexhv.gensparkspace.com/"
+                title="Vibe Coding Project Preview"
+                loading="lazy"
+                scrolling="no"
+              ></iframe>
+              <div class="project-preview-overlay">
+                <a href="https://fiuvexhv.gensparkspace.com/" target="_blank" rel="noopener" class="preview-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                  Open Live Preview
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Experimental</span>
+                <span class="project-status status-live">Live</span>
+              </div>
+              <h3>Vibe Coding Project</h3>
+              <p>An experimental creative project showcasing the vibe coding philosophy — building fast, iterating boldly, and shipping beautiful digital experiences.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Vibe Coding</span>
+                <span class="tech-tag">GenSpark</span>
+                <span class="tech-tag">Creative Dev</span>
+              </div>
+              <a href="https://fiuvexhv.gensparkspace.com/" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card glass-card reveal" style="--delay: 0.3s">
+            <div class="project-preview">
+              <iframe
+                src="https://degkzwze.gensparkspace.com"
+                title="Winning Poster Presentation Preview"
+                loading="lazy"
+                scrolling="no"
+              ></iframe>
+              <div class="project-preview-overlay">
+                <a href="https://degkzwze.gensparkspace.com" target="_blank" rel="noopener" class="preview-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                  Open Live Preview
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Presentation</span>
+                <span class="project-status status-award">Award</span>
+              </div>
+              <h3>Winning Poster Presentation</h3>
+              <p>An award-winning digital poster presentation that combined pharmaceutical knowledge with compelling visual storytelling and interactive design.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Design</span>
+                <span class="tech-tag">Presentation</span>
+                <span class="tech-tag">Healthcare</span>
+              </div>
+              <a href="https://degkzwze.gensparkspace.com" target="_blank" rel="noopener" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Experience Section ─── -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Journey</span>
+          <h2 class="section-title">Experience & <span class="accent-gradient">Roles</span></h2>
+          <p class="section-subtitle">Building real impact across institutions and borders</p>
+        </div>
+
+        <div class="experience-grid">
+          <div class="exp-card glass-card reveal featured-exp">
+            <div class="exp-card-header">
+              <div class="exp-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="exp-badge current">Current Role</div>
+            </div>
+            <h3>Media Cell Head</h3>
+            <p class="exp-org">Quaid e Azam College of Pharmacy, Pattoki</p>
+            <p class="exp-desc">Leading the digital media and creative communications wing of QCP. Responsible for graphic design, social media strategy, event documentation, and building the college's digital brand identity.</p>
+            <div class="exp-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>College branding & design</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Social media management</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Event & campaign design</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Web-based project development</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-side">
+            <div class="exp-card glass-card reveal" style="--delay: 0.1s">
+              <div class="exp-card-header">
+                <div class="exp-icon exp-icon--freelance">
+                  <i class="fas fa-handshake"></i>
+                </div>
+              </div>
+              <h3>Freelance Designer & Developer</h3>
+              <p class="exp-org">International Clientele</p>
+              <p class="exp-desc">Worked with 16+ clients across Pakistan, Saudi Arabia, and the United States, delivering web development, graphic design, and social media management services.</p>
+              <div class="exp-countries">
+                <span class="country-tag">Pakistan</span>
+                <span class="country-tag">Saudi Arabia</span>
+                <span class="country-tag">United States</span>
+              </div>
+            </div>
+
+            <div class="exp-card glass-card reveal" style="--delay: 0.2s">
+              <div class="exp-card-header">
+                <div class="exp-icon exp-icon--web">
+                  <i class="fas fa-code-branch"></i>
+                </div>
+              </div>
+              <h3>Creative Web Developer</h3>
+              <p class="exp-org">Personal Projects & Institutional Work</p>
+              <p class="exp-desc">Developed multiple creative and functional web-based solutions, blending pharmaceutical knowledge with modern tech to create meaningful digital products.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="clients-strip reveal">
+          <p class="clients-label">Trusted by clients from</p>
+          <div class="clients-flags">
+            <div class="flag-item">
+              <span class="flag">PK</span>
+              <span>Pakistan</span>
+            </div>
+            <div class="flag-item">
+              <span class="flag">SA</span>
+              <span>Saudi Arabia</span>
+            </div>
+            <div class="flag-item">
+              <span class="flag">US</span>
+              <span>United States</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Contact Section ─── -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In <span class="accent-gradient">Touch</span></h2>
+          <p class="section-subtitle">Have a project in mind? Let's build something amazing together.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Ready to collaborate?</h3>
+            <p>Whether you need a website, a graphic design, social media management, or just want to connect — I'm always open to exciting opportunities.</p>
+
+            <div class="contact-methods">
+              <a href="https://wa.me/923001291105" target="_blank" rel="noopener" class="contact-method">
+                <div class="method-icon method-icon--whatsapp">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="method-info">
+                  <span class="method-label">WhatsApp</span>
+                  <span class="method-value">+92 300 129 1105</span>
+                </div>
+                <i class="fas fa-arrow-right method-arrow"></i>
+              </a>
+
+              <a href="mailto:Harisaslam003@gmail.com" class="contact-method">
+                <div class="method-icon method-icon--email">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-info">
+                  <span class="method-label">Email</span>
+                  <span class="method-value">Harisaslam003@gmail.com</span>
+                </div>
+                <i class="fas fa-arrow-right method-arrow"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal" style="--delay: 0.15s">
+            <form class="contact-form glass-card" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+              <div class="form-success" id="form-success">
+                <i class="fas fa-check-circle"></i>
+                Message sent successfully! I'll get back to you soon.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Footer ─── -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <span class="logo-text">Horizon</span>
+          <span class="logo-dot"></span>
+        </a>
+        <p>Pharm-D Student | Vibe Coder | Creative Technologist</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <a href="https://wa.me/923001291105" class="footer-social" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:Harisaslam003@gmail.com" class="footer-social" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Designed &amp; Built with passion by <span class="accent-gradient">Haris Aslam</span> — Horizon &copy; 2025</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
